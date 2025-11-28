@@ -12,6 +12,11 @@ public class InmuebleServiceImpl implements InmuebleService {
 
     private final InmuebleRepository inmuebleRepository;
 
+    /**
+     * Prueba
+     * @param inmueble
+     * @return
+     */
     @Override
     public Inmueble crear(Inmueble inmueble){
         return inmuebleRepository.save(inmueble);
